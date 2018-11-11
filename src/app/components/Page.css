@@ -1,0 +1,38 @@
+.pageWrapper {
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+  grid-gap: 8px;
+  min-height: 50vh;
+  margin: auto;
+  padding: 24px;
+  position: relative;
+  grid-column: 1/-1;
+}
+
+subtitle {
+  color: #ff8101;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
+  grid-column: 1/-1;
+}
+
+header {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 4px #ff8101, 2px 4px #ff8101, 2px 4px #ff8101, 0 0px #ff8101;
+}
+
+.loading {
+  color: #ff8101;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
+}

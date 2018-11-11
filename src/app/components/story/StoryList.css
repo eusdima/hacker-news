@@ -1,0 +1,57 @@
+.storyList {
+  display: grid;
+  grid-gap: 2px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.story {
+  display: grid;
+  grid-template-columns: 72px 1fr 96px 48px;
+  align-items: center;
+  grid-gap: 4px;
+  padding: 8px;
+  border: 1px solid #fe972e;
+  font-family: "Roboto", sans-serif;
+  background-color: #d6d5c9;
+  color: black;
+}
+
+.storyList .tableTop {
+  display: grid;
+  grid-template-columns: 32px 64px;
+  justify-items: right;
+  margin-left: 32px;
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  height: 64px;
+}
+
+.storyList .tableTop p {
+  color: white;
+  font-weight: bold;
+}
+
+.story .score {
+  justify-self: center;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+}
+
+.story a {
+  justify-self: start;
+  align-self: center;
+  font-size: 72%;
+  text-decoration: none;
+  color: black;
+}
+
+.story .title {
+  border-left: 2px solid #fe972e;
+  padding-left: 8px;
+  height: 24px;
+  font-size: 100%;
+
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,29 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+  margin: auto;
+  height: 24px;
+  width: 256px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.menu a {
+  justify-self: stretch;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 8px;
+  color: #ff8101;
+  text-decoration: none;
+  background-color: white;
+  border-width: 0;
+  outline: none;
+  border-radius: 1px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", sans-serif;
+}
+
+.menu .activeButton {
+  color: white;
+  background-color: #ff8101;
+}

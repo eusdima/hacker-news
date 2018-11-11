@@ -1,0 +1,31 @@
+html {
+  background-color: #00973c;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.header {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 4px #ff8101, 2px 4px #ff8101, 2px 4px #ff8101, 0 0px #ff8101;
+}
+
+.menuAndPageWrapper {
+  margin-top: 8px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: 1fr;
+  grid-template-rows: 72px 36px 1fr;
+  grid-gap: 8px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+.about {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Kaushan Script", cursive;
+  text-shadow: 2px 4px #ff8101, 2px 4px #ff8101, 2px 4px #ff8101, 0 0px #ff8101;
+}
